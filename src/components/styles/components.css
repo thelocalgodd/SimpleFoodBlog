@@ -1,0 +1,76 @@
+/* HEADER */
+
+.header header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.search-hamburger {
+  display: flex;
+  gap: 10px;
+}
+
+/* FOOTER */
+
+.first {
+  display: flex;
+  padding: 0 20px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.two div {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.two input,
+button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  outline: none;
+}
+
+.one,
+.two,
+.three,
+.four {
+  width: 45%;
+}
+
+.copyright {
+  width: 60%;
+}
+
+/* NAV */
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 30px;
+  font-size: small;
+}
+
+/* BLOGPOST */
+
+.blogpost {
+  border: 1px solid red;
+}
+
+.blogpost main {
+  display: flex;
+}
