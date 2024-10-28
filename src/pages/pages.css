@@ -1,3 +1,37 @@
-.allrecipes-images {
-  width: 300px;
+/* HOMEPAGE */
+
+.home-header {
+  font-size: 50px;
+  text-align: center;
+  margin: 100px 0;
+}
+
+.quote-icon {
+  font-size: 50px;
+  color: green;
+  text-align: center;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.intro-text span {
+  font-size: 15px;
+}
+
+.secondary-text {
+  font-size: 17px;
+}
+
+.image-s {
+  max-width: 700px;
+}
+
+.image-s img {
+  max-width: 650px;
+  margin: auto;
 }

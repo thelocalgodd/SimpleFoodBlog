@@ -10,8 +10,8 @@ function Header() {
           <h1>Simple Food</h1>
 
           <div className="search-hamburger">
-            <p>🔍</p>
-            <p>🍔</p>
+            <button>🔍</button>
+            <button>🍔</button>
           </div>
         </div>
       </header>
