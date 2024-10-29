@@ -8,7 +8,6 @@ import _5 from "../assets/homepage-images/rhubarb4-resized.webp";
 import _6 from "../assets/homepage-images/ricotta-raspberry-tart3-resized.webp";
 import _7 from "../assets/homepage-images/strawberry-and-fig-stack1-resized.webp";
 import _8 from "../assets/homepage-images/tarte-tatin1.webp";
-import { Button } from "@mui/material";
 
 function HomePage() {
   return (
@@ -70,15 +69,12 @@ function HomePage() {
         </div>
 
         <div className="share-section">
-          <p>Share: </p>
-          <div>
-            <p>social icons</p>
-          </div>
+          <p>Share:⭐⭐⭐⭐⭐</p>
 
-          <div>
-            <Button variant="outlined" color="black">
-              ⭐ Like
-            </Button>
+          <div className="like-button">
+            <button className="likebutton">⭐ Like</button>
+
+            <p>75 likes</p>
           </div>
         </div>
       </main>

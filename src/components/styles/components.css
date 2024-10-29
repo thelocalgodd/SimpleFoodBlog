@@ -68,9 +68,37 @@ nav ul {
 /* BLOGPOST */
 
 .blogpost {
-  border: 1px solid red;
+  max-width: 700px;
+  margin: 70px auto;
 }
 
-.blogpost main {
+.blogpost img {
+  width: 700px;
+}
+
+.blogpost .main {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blogpost-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  font-size: 12px;
+}
+
+.blogpost-right {
+  align-items: center;
+  width: 170%;
+}
+
+.blogpost-right h1 {
+  font-weight: 500;
+}
+
+.readmore {
+  color: green;
 }

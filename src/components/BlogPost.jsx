@@ -1,23 +1,24 @@
 /* eslint-disable react/prop-types */
-function BlogPost({ image, recipeName, description, author, date, tags }) {
+function BlogPost({ image, recipeName, description, date, tags }) {
   return (
     <div className="blogpost">
       <img src={image} alt="" />
 
-      <main>
+      <div className="main">
         <div className="blogpost-left">
-          <span>By {author} </span>
-          <span>{date}</span>
-          <span>{tags}</span>
+          <div>
+            <p>By: mawarre</p>
+            <p>{date}</p>
+            <p>{tags}</p>
+          </div>
         </div>
 
         <div className="blogpost-right">
           <h1>{recipeName}</h1>
-          <br />
           <p>{description}</p>
-          <p className="readmore">READMORE</p>
+          <p className="readmore">READ MORE</p>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
