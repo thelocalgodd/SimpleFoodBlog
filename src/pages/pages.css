@@ -66,3 +66,17 @@
   border: 1px solid grey;
   margin-right: 10px;
 }
+
+/* SALADS PAGE */
+
+.salads-images p {
+  font-size: 20px;
+}
+
+.salads-images .images {
+  margin: 0 auto;
+}
+
+.salads-images .images img {
+  width: 380px;
+}
