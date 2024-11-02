@@ -70,7 +70,6 @@ function HomePage() {
 
         <div className="share-section">
           <p>Share:⭐⭐⭐⭐⭐</p>
-
           <div className="like-button">
             <button className="likebutton">⭐ Like</button>
 
