@@ -1,7 +1,7 @@
 import BaseLayout from "../layout/BaseLayout";
 
 function SweetThingsPage() {
-  return <BaseLayout>sweet things</BaseLayout>;
+  return <BaseLayout></BaseLayout>;
 }
 
 export default SweetThingsPage;
