@@ -109,7 +109,7 @@ function AllRecipesPage() {
           image={lemon}
           recipeName={"Luscious lemon bars"}
           description={
-            " When did the lemons learn the same creed as the sun? Pablo Neruda The concept of this recipe, which is a staple in America, but not well known at all in my part of the world, is genius. Two of the most delicious things in the world – shortbread and lemon curd – brought together…"
+            " lWhen did the lemons learn the same creed as the sun? Pablo Neruda The concept of this recipe, which is a staple in America, but not well known at all in my part of the world, is genius. Two of the most delicious things in the world – shortbread and lemon curd – brought together…"
           }
         />
 
