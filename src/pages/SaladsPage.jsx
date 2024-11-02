@@ -83,6 +83,53 @@ function SaladsPage() {
           </div>
         </div>
       </main>
+      <div className="salads-images">
+        <p>
+          A selection of some of my favourite salad recipes. Wonderful all year
+          round, but especially beautiful in spring and summer, when the weather
+          calls us outdoors. Recipe links below, or see all my salad recipes.
+        </p>
+
+        <div className="images">
+          <img src={_1} alt="" />
+          <img src={_2} alt="" />
+          <img src={_3} alt="" />
+          <img src={_4} alt="" />
+          <img src={_5} alt="" />
+          <img src={_6} alt="" />
+          <img src={_7} alt="" />
+          <img src={_8} alt="" />
+          <img src={_9} alt="" />
+          <img src={_10} alt="" />
+          <img src={_11} alt="" />
+          <img src={_12} alt="" />
+        </div>
+
+        <ul>
+          <li>Tomato salad with sumac</li>
+          <li>Chinese cabbage and crispy noodle salad</li>
+          <li>Roasted cauliflower with pomegranate, almonds and mint</li>
+          <li>Chopped salad with sweet chilli and sesame dressing</li>
+          <li>Summer greens with cous cous</li>
+          <li>Carrot salad with coriander, chilli and sesame</li>
+          <li>Avocado slammer salad</li>
+          <li>Potato and pea salad with hazelnut dressing</li>
+          <li>Roasted pumpkin with feta, tomato and pine nuts</li>
+          <li>Rocket, apple and parmesan salad</li>
+          <li>Zucchini and mint salad - summer on a plate</li>
+          <li>Cranberry and wild rice salad</li>
+        </ul>
+      </div>
+
+      <div className="share-section">
+        <p>Share:⭐⭐⭐⭐⭐</p>
+
+        <div className="like-button">
+          <button className="likebutton">⭐ Like</button>
+
+          <p>75 likes</p>
+        </div>
+      </div>
     </BaseLayout>
   );
 }
