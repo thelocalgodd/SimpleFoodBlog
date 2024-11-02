@@ -27,7 +27,7 @@ function SweetThingsPage() {
           <p>
             My 93-year-old grandma is a beautiful example of healthy living. She
             laughs a lot and always says, ‘Just be yourself!’ She also eats
-            dessert every single day.
+            dessert every single day
             <br />
             <span>Rachel Boston</span>
           </p>
