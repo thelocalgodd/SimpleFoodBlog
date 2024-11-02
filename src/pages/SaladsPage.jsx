@@ -16,53 +16,73 @@ import _12 from "../assets/salads/zucchini-3-resized.jpg";
 function SaladsPage() {
   return (
     <BaseLayout>
-      <div className="salads-images">
-        <p>
-          A selection of some of my favourite salad recipes. Wonderful all year
-          round, but especially beautiful in spring and summer, when the weather
-          calls us outdoors. Recipe links below, or see all my salad recipes.
-        </p>
-
-        <div className="images">
-          <img src={_1} alt="" />
-          <img src={_2} alt="" />
-          <img src={_3} alt="" />
-          <img src={_4} alt="" />
-          <img src={_5} alt="" />
-          <img src={_6} alt="" />
-          <img src={_7} alt="" />
-          <img src={_8} alt="" />
-          <img src={_9} alt="" />
-          <img src={_10} alt="" />
-          <img src={_11} alt="" />
-          <img src={_12} alt="" />
+      <main>
+        <div>
+          <p className="home-header">Salads</p>
         </div>
 
-        <ul>
-          <li>Tomato salad with sumac</li>
-          <li>Chinese cabbage and crispy noodle salad</li>
-          <li>Roasted cauliflower with pomegranate, almonds and mint</li>
-          <li>Chopped salad with sweet chilli and sesame dressing</li>
-          <li>Summer greens with cous cous</li>
-          <li>Carrot salad with coriander, chilli and sesame</li>
-          <li>Avocado slammer salad</li>
-          <li>Potato and pea salad with hazelnut dressing</li>
-          <li>Roasted pumpkin with feta, tomato and pine nuts</li>
-          <li>Rocket, apple and parmesan salad</li>
-          <li>Zucchini and mint salad - summer on a plate</li>
-          <li>Cranberry and wild rice salad</li>
-        </ul>
-      </div>
+        <p className="quote-icon">{'"'}</p>
 
-      <div className="share-section">
-        <p>Share:⭐⭐⭐⭐⭐</p>
-
-        <div className="like-button">
-          <button className="likebutton">⭐ Like</button>
-
-          <p>75 likes</p>
+        <div className="intro-text">
+          <p>
+            A well-made salad must have a certain uniformity; it should make
+            perfect sense for those ingredients to share a bowl.
+            <br />
+            <span>Yottam Ottolenghi</span>
+          </p>
         </div>
-      </div>
+
+        <div className="secondary-text">
+          <p>
+            A selection of some of my favourite salad recipes. Wonderful all
+            year round, but especially beautiful in spring and summer, when the
+            weather calls us outdoors. Recipe links below, or see all my salad
+            recipes.
+          </p>
+        </div>
+
+        <div className="salads-images">
+          <div className="images">
+            <img src={_1} alt="" />
+            <img src={_2} alt="" />
+            <img src={_3} alt="" />
+            <img src={_4} alt="" />
+            <img src={_5} alt="" />
+            <img src={_6} alt="" />
+            <img src={_7} alt="" />
+            <img src={_8} alt="" />
+            <img src={_9} alt="" />
+            <img src={_10} alt="" />
+            <img src={_11} alt="" />
+            <img src={_12} alt="" />
+          </div>
+
+          <ul>
+            <li>Tomato salad with sumac</li>
+            <li>Chinese cabbage and crispy noodle salad</li>
+            <li>Roasted cauliflower with pomegranate, almonds and mint</li>
+            <li>Chopped salad with sweet chilli and sesame dressing</li>
+            <li>Summer greens with cous cous</li>
+            <li>Carrot salad with coriander, chilli and sesame</li>
+            <li>Avocado slammer salad</li>
+            <li>Potato and pea salad with hazelnut dressing</li>
+            <li>Roasted pumpkin with feta, tomato and pine nuts</li>
+            <li>Rocket, apple and parmesan salad</li>
+            <li>Zucchini and mint salad - summer on a plate</li>
+            <li>Cranberry and wild rice salad</li>
+          </ul>
+        </div>
+
+        <div className="share-section">
+          <p>Share:⭐⭐⭐⭐⭐</p>
+
+          <div className="like-button">
+            <button className="likebutton">⭐ Like</button>
+
+            <p>75 likes</p>
+          </div>
+        </div>
+      </main>
     </BaseLayout>
   );
 }
