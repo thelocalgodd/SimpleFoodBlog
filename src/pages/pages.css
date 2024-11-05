@@ -80,3 +80,26 @@
 .salads-images .images img {
   width: 380px;
 }
+
+/* ABOUT PAGE */
+.intro-text-about {
+  font-size: 23px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ending-text-about {
+  font-size: 23px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.image-s-about {
+  columns: 300px;
+  max-width: 610px;
+  margin: 40px 0;
+}
+
+.image-s-about img {
+  width: 300px;
+}
